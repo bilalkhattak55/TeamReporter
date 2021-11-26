@@ -1,0 +1,23 @@
+
+
+
+
+
+
+function SignUp() {
+    return(
+        <div>
+            <h1>Pls Sign Up here</h1>
+            <input type="text" placeholder="enter your name" /> <br />
+            <input type="email" placeholder="enter your email" /> <br />
+            <input type="password" placeholder="enter password" /> <br/>
+            <input type="password" placeholder="confirm password" /> <br/>
+
+            <button>Sign UP</button>
+            
+            
+        </div>
+    );
+}
+
+export default SignUp;
